@@ -31,7 +31,8 @@ function App() {
 
   const [theme, setTheme] = useState<ThemeType>(() => {
     const saved = localStorage.getItem('pt-salary-theme');
-    return (saved as ThemeType) || 'dark';
+    // Default to light mode when there is no saved preference
+    return (saved as ThemeType) || 'light';
   });
 
   useEffect(() => {
@@ -58,7 +59,25 @@ function App() {
           <LanguageSwitch />
         </div>
         <div className="header-content">
-          <h1>{t('title')}</h1>
+          <h1>
+            <span className="pt-flag" aria-hidden="true">
+              <svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <clipPath id="pt-flag-clip">
+                    <path d="M0 0h640v480H0z" />
+                  </clipPath>
+                </defs>
+                <g clipPath="url(#pt-flag-clip)">
+                  <path fill="#060" d="M0 0h256v480H0z" />
+                  <path fill="#f00" d="M256 0h384v480H256z" />
+                  <circle cx="256" cy="240" r="96" fill="#ff0" stroke="#000" strokeWidth="4" />
+                  <circle cx="256" cy="240" r="72" fill="#fff" />
+                  <rect x="236" y="204" width="40" height="72" fill="#0038a8" />
+                </g>
+              </svg>
+            </span>
+            {t('title')}
+          </h1>
         </div>
         <p className="subtitle">{t('subtitle')}</p>
       </header>

@@ -1,6 +1,6 @@
-# robots.txt for salariocerto.pt
+# robots.txt for Sálario Certo
 User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://salariocerto.pt/sitemap.xml
+Sitemap: https://Sálario Certo/sitemap.xml

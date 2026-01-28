@@ -2,7 +2,7 @@ export type Language = 'en' | 'pt';
 
 export const translations = {
   en: {
-    title: 'salariocerto.pt',
+    title: 'Portugal Net Salary Calculator',
     subtitle: 'Calculate your net income after taxes and social security',
     inputTitle: 'Your Income',
     grossSalary: 'Gross Salary (€)',
@@ -148,7 +148,7 @@ export const translations = {
     layoutDashboard: 'Dashboard Layout',
   },
   pt: {
-    title: 'salariocerto.pt',
+    title: 'Salário Líquido em Portugal',
     subtitle: 'Calcule o seu rendimento líquido após impostos e segurança social',
     inputTitle: 'O Seu Rendimento',
     grossSalary: 'Salário Bruto (€)',

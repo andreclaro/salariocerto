@@ -1,8 +1,8 @@
-# Salário Certo
+# Calculadora do Salário Líquido em Portugal
 
 A free, open-source salary calculator for Portugal (2026). Calculate your net salary after IRS taxes, social security contributions, and special tax regimes.
 
-**Website:** [salariocerto.pt](https://salariocerto.pt)
+**Website:** [Calculadora do Salário Líquido em Portugal](https://Sálario Certo)
 
 ## Features
 

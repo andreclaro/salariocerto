@@ -13,8 +13,8 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguage] = useState<Language>(() => {
     const saved = localStorage.getItem('pt-salary-lang');
     if (saved === 'pt' || saved === 'en') return saved;
-    const browserLang = navigator.language.toLowerCase();
-    return browserLang.startsWith('pt') ? 'pt' : 'en';
+    // Default to Portuguese when there is no saved preference
+    return 'pt';
   });
 
   const handleSetLanguage = useCallback((lang: Language) => {
