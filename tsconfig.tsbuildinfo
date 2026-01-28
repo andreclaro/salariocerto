@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/infotabs.tsx","./src/components/inputform.tsx","./src/components/languageswitch.tsx","./src/components/layoutswitcher.tsx","./src/components/results.tsx","./src/components/salaryexamples.tsx","./src/i18n/languagecontext.tsx","./src/i18n/translations.ts","./src/utils/taxcalculator.ts"],"version":"5.6.3"}

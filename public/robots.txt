@@ -1,0 +1,6 @@
+# robots.txt for salariocerto.pt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://salariocerto.pt/sitemap.xml
